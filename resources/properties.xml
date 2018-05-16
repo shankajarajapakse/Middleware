@@ -1,0 +1,21 @@
+<data>
+    <attribute>
+        <value>user</value>
+        <method>SHA256</method>
+    </attribute>
+
+    <attribute>
+        <value>other</value>
+        <method>SHA256</method>
+    </attribute>
+
+    <attribute>
+        <value>duration</value>
+        <method>AS-IS</method>
+        <constraint>
+            <condition>GREATER-THAN</condition>
+            <condition-value>60</condition-value>
+        </constraint>
+    </attribute>
+
+</data>
